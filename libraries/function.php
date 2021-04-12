@@ -75,7 +75,7 @@
     }
     function base_url()
     {
-        return $url  = "http://localhost/webphp/"; 
+        return $url  = "http://localhost:7882/webphp/"; 
     }
     function public_admin()
     {

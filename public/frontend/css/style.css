@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6
 }
 .boxred
 {
-    borrder:1px solid red;
+    border:1px solid red;
 }
 /* =================HEADER================== */
 
@@ -84,10 +84,6 @@ h1,h2,h3,h4,h5,h6
     margin-left: -6px;
     z-index: 999999999;
     background: white;
-}
-#header-submenu li a
-{
-
 }
 #header-submenu li:hover
 {
@@ -149,13 +145,13 @@ h1,h2,h3,h4,h5,h6
 #header-main select
 {
     font-size: 12px;
-    height: 28px;
     border-right: 1px solid #e3e3e3 !important;
     padding-right: 37px !important;
 }
 #header-main input[type='text']
 {
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 12px;
 }
 

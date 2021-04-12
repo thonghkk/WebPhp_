@@ -1,6 +1,6 @@
 </div>
 
-<section id="footer" style="background: #58ACFA">
+<section id="footer" style="background: #dfdfdf">
     <div class="container">
         <div class="col-md-12" id="shareicon">
             <ul>

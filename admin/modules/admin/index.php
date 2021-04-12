@@ -77,7 +77,7 @@
                             <?php
                             if($p>1)
                             {
-                                echo "<a href='http://localhost/webphp/admin/modules/admin/?page=".($p-1)."' class='page-link'>Previous</a>";
+                                echo "<a href='http://localhost:7882/webphp/admin/modules/admin/?page=".($p-1)."' class='page-link'>Previous</a>";
                             }
                             ?>
                             <li class="page-item">
@@ -95,7 +95,7 @@
                             <?php
                             if($sotrang>$p)
                             {
-                                echo "<a href='http://localhost/webphp/admin/modules/admin/?page=".($p+1)."' class='page-link'>Next</a>";
+                                echo "<a href='http://localhost:7882/webphp/admin/modules/admin/?page=".($p+1)."' class='page-link'>Next</a>";
                             }
                             ?>
                         </ul>

@@ -13,13 +13,13 @@
         <link rel="stylesheet" type="text/css" href="/webphp/public/frontend/css/style.css">
     </head>
     <body>
-        <div id="wrapper" style="background-color: #58ACFA">
+        <div id="wrapper" style="background-color: #dfdfdf">
             <div id="header">
                 <div id="header-top">
                     <div class="container">
                         <div class="row clearfix">
                             <div class="col-md-6" id="header-text">
-                                <a>doanchuyennganh</a><b>Giảng viên hướng dẫn: Nguyễn Thị Ngọc Anh</b>
+                                <a>Mã Nguồn Mở</a><b>Giảng viên hướng dẫn: Đoàn Duy Bình</b>
                             </div>
                             <div class="col-md-6">
                                 <nav id="header-nav-top">
@@ -59,7 +59,7 @@
                                         </select>
                                     </label>
                                     <input type="hidden" name="id" value="find" >
-                                    <input type="text" name="keyword" placeholder=" Nhập sản phẩm cần tìm" class="form-control">
+                                    <input type="text" name="keyword" placeholder=" Nhập sản phẩm cần tìm..." class="form-control">
                                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                                 </div>
                             </form>
