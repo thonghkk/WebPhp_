@@ -46,14 +46,14 @@
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%) !important;
+			background-image: linear-gradient(to top, #e8ffc1 0% , #0278ae 100%) !important;
 		}
 		.user_card {
 			height: 400px;
 			width: 350px;
 			margin-top: auto;
 			margin-bottom: auto;
-			background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+			background-image: linear-gradient(to top, #a5ecd7 0%, #0278ae 100%);
 			position: relative;
 			display: flex;
 			justify-content: center;
@@ -71,7 +71,7 @@
 			width: 170px;
 			top: -75px;
 			border-radius: 50%;
-			background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+			background-image: linear-gradient(to top, #e8ffc1 0%,  #0278ae 100%);
 			padding: 10px;
 			text-align: center;
 		}

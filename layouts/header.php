@@ -67,7 +67,7 @@
                      </div>
                      <div class="col-md-4" style="">
                             <img src="public/frontend/images/logo-mixi.png" alt="logo" weight="120px" height="120px" style="align:center" >
-                            <h5 style = "color: red">Welcome come to Mixi Shop!</h5>
+                            <h5 style = "color: white">Welcome come to Mixi Shop!</h5>
                     </div>
                     <div class="col-md-3">
                         
