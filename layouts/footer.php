@@ -1,75 +1,47 @@
 </div>
 
-<section id="footer" style="background: #dfdfdf">
-    <div class="container">
-        <div class="col-md-12" id="shareicon">
-            <ul>
-                <li>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-        <p></p>
-        </div>
-        <div class="col-md-4">
-            <div class="col-md-4">
-            <a href=""><img src="<?php echo base_url()?>public/frontend/images/logo-mixi.png" width="150px"height="100px"></a>
-            </div>
-            <div class="col-md-1">
-            
-            </div>
-            
-            <div class="col-md-6">
-            <h3 class="title-footer"> Thông Tin</h3>
-            <ul>
-                <li>
-                    <i class="fa fa-angle-double-right" style="font-size:30px"></i>
-                    <a href='#' style="font-size:20px"><i></i>Giới Thiệu</a>
-                </li>
-                <li>
-                    <i class="fa fa-angle-double-right" style="font-size:30px"></i>
-                    <a href='#' style="font-size:20px"><i></i>Liên Hệ</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-        <div class="col-md-4">
-    
-        <div class="col-md-12">
-        <h3 class="title-footer">Liên Hệ</h3>
-        <ul>
-            <li>
-                <i class="fa fa-home" style="font-size:30px"></i> 
-                <a href='#' style="font-size:20px">Quan Lien Chieu, Da Nang</a>
-            </li>
-            <li>
-                <i class="sp-ic fa fa-phone" style="font-size:30px"></i>
-                <a href='#' style="font-size:20px">0965272988</a>
-            </li>
-            <li>
-                <i class="sp-ic fa fa-envelope" style="font-size:30px"></i> 
-                <a href='#' style="font-size:20px">devilzz1999@gmail.com</a>
-            </li>
-        </ul>
-        </div>
-    </div>
-        
-    </div>
-    </div>
-</section>
+<footer class="footer">
+  	 <div class="container_footer">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="http://localhost:7882/webphp/gioi-thieu.php">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+                   <ul>
+                     <?php foreach ($category as $item) :?>
+                    <li> <a href="danh-muc-san-pham.php?id=<?php echo $item['id']  ?>"> <?php echo $item['name'] ?> </a></li>
+                    <?php endforeach; ?>
+                    </ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 
 
 

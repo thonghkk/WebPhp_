@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="/webphp/public/frontend/css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="/webphp/public/frontend/css/slick-theme.css"/>
         <link rel="stylesheet" type="text/css" href="/webphp/public/frontend/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/webphp/public/frontend/css/style-footer.css">
     </head>
     <body>
         <div id="wrapper" style="background-color: #dfdfdf">
