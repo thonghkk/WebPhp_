@@ -66,12 +66,11 @@
                             <span class="badge"><?php $_SESSION['total'] = $_SESSION['tongtien'] * 105/100; echo formatPrice($_SESSION['total']) ?></span>
                             Tổng tiền thanh toán
                         </li>
-                        <li class="list-group-item">
-                            <a href="index.php" class="btn btn-success">Tiếp tục mua hàng</a>
-                            <a href="thanh-toan.php" class="btn btn-success">Đặt hàng</a>
-                        </li>
+                 
                     </ul>
                 </div>
             </section>
         </div>
     <?php require_once  __DIR__. "/layouts/footer.php"; ?>
+
+
